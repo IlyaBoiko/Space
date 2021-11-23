@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="news">
     <div class="container">
       <div class="header__inner">
         <div class="header__top">
@@ -20,11 +20,11 @@
               <span></span>
             </button>
             <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">О НАС</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">СТОИМОСТЬ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">ДОП. УСЛУГИ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">ГАРАНТИИ</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">НОВОСТИ</a></li>
+              <li class="menu__item"><a href="#about" class="menu__link">О НАС</a></li>
+              <li class="menu__item"><a href="#price" class="menu__link">СТОИМОСТЬ</a></li>
+              <li class="menu__item"><a href="#services" class="menu__link">ДОП. УСЛУГИ</a></li>
+              <li class="menu__item"><a href="#guarantees" class="menu__link">ГАРАНТИИ</a></li>
+              <li class="menu__item"><a href="#news" class="menu__link">НОВОСТИ</a></li>
             </ul>
           </nav>
           <a href="tel:0 800 000 000 00" class="phone">0 800 000 000 00</a>
@@ -42,7 +42,7 @@
             <p>Будущее уже наступило!</p>
             <p>Осуществи мечту детства!</p>
           </div>
-          <button class="header__btn">
+          <button class="header__btn modal-open">
             Хочу быть космонавтом!
           </button>
         </div>
@@ -59,7 +59,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <h2 class="title">О нас</h2>
         <div class="about__item">
@@ -321,7 +321,7 @@
 
     <section class="info">
 
-      <div class="special-offer">
+      <div class="special-offer" id="price">
         <div class="container">
           <h2 class="title">Спец<br>предложения</h2>
           <div class="special-offer__inner">
@@ -355,7 +355,7 @@
         </div>
       </div>
 
-      <div class="services">
+      <div class="services" id="services">
         <div class="container">
           <h2 class="title services__title">Дополнительные<br>услуги</h2>
           <div class="services__inner">
@@ -383,13 +383,13 @@
           <div class="slider__inner">
             <div class="slider__box">
               <div class="slider__box-item">
-                <img src="images/slider.jpg" alt="#" class="slider__box-img">
+                <img src="images/richard-branson.jpg" alt="#" class="slider__box-img">
               </div>
               <div class="slider__box-item">
-                <img src="images/slider.jpg" alt="#" class="slider__box-img">
+                <img src="images/group.jpg" alt="#" class="slider__box-img">
               </div>
               <div class="slider__box-item">
-                <img src="images/slider.jpg" alt="#" class="slider__box-img">
+                <img src="images/ilon-mask.jpg" alt="#" class="slider__box-img">
               </div>
             </div>
           </div>
@@ -400,7 +400,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="guarantees">
       <div class="container">
         <div class="contacts__inner">
           <div class="contacts__box">
@@ -435,24 +435,22 @@
           <p>График приема посетителей строго по записи</p>
         </div>
         <ul class="footer__menu">
-          <li class="footer__menu-item"><a href="#" class="footer__menu-link">О НАС</a></li>
-          <li class="footer__menu-item"><a href="#" class="footer__menu-link">СТОИМОСТЬ</a></li>
-          <li class="footer__menu-item"><a href="#" class="footer__menu-link">ДОП. УСЛУГИ</a></li>
-          <li class="footer__menu-item"><a href="#" class="footer__menu-link">ГАРАНТИИ</a></li>
-          <li class="footer__menu-item"><a href="#" class="footer__menu-link">НОВОСТИ</a></li>
+          <li class="footer__menu-item"><a href="#about" class="footer__menu-link">О НАС</a></li>
+          <li class="footer__menu-item"><a href="#price" class="footer__menu-link">СТОИМОСТЬ</a></li>
+          <li class="footer__menu-item"><a href="#services" class="footer__menu-link">ДОП. УСЛУГИ</a></li>
+          <li class="footer__menu-item"><a href="#guarantees" class="footer__menu-link">ГАРАНТИИ</a></li>
+          <li class="footer__menu-item"><a href="#news" class="footer__menu-link">НОВОСТИ</a></li>
         </ul>
         <ul class="footer__links">
-          <li class="footer-_links-item"><a href="#" class="footer__links-link">spacex.com</a></li>
-          <li class="footer-_links-item"><a href="#" class="footer__links-link">blueorigin.com</a></li>
-          <li class="footer-_links-item"><a href="#" class="footer__links-link">virgingalactic.com</a></li>
+          <li class="footer-_links-item"><a href="https://www.spacex.com/" target="blank" class="footer__links-link">spacex.com</a></li>
+          <li class="footer-_links-item"><a href="https://www.blueorigin.com/" target="blank" class="footer__links-link">blueorigin.com</a></li>
+          <li class="footer-_links-item"><a href="https://virgingalactic.com/" target="blank" class="footer__links-link">virgingalactic.com</a></li>
           <li class="footer-_links-item"><a href="tel:0 800 000 000 00" class="footer__links-link">0 800 000 000 00</a></li>
-          <li class="footer-_links-item"><a href="#" class="footer__links-link">МКС</a></li>
+          <li class="footer-_links-item"><a href="http://mks-online.ru/" target="blank" class="footer__links-link">МКС</a></li>
         </ul>
       </div>
     </div>
   </footer>
-
-
 
 
 
